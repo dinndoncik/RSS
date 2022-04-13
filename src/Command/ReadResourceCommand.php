@@ -37,7 +37,7 @@ class ReadResourceCommand extends Command
             $input->getArgument('limit')
         );
 
-        dump($articles);
+        print_r($articles);
 
         return Command::SUCCESS;
     }
